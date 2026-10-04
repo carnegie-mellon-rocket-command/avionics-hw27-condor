@@ -4058,7 +4058,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Stolen from Kingfisher\n\nMust Verify + fix imports"
+	(text "Stolen from Kingfisher\n\nMust Verify"
 		(exclude_from_sim no)
 		(at 22.86 173.99 0)
 		(effects
