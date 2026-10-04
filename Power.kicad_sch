@@ -3175,7 +3175,7 @@
 	)
 	(text "Stolen from Kingfisher\n"
 		(exclude_from_sim no)
-		(at 21.59 171.45 0)
+		(at 20.32 172.72 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -3218,7 +3218,7 @@
 		)
 		(uuid "9e4e9d74-770f-49cd-b3b8-f847d885f1fe")
 	)
-	(text "TODO:\nSwitch out MCU to whatever we decide on\nVerify this works\nProbably move the MCU power/decoupling into MCU file or MCU Power file\nResolve imports"
+	(text "TODO:\nSwitch out MCU to whatever we decide on\nVerify this works\nProbably move the MCU power/decoupling into MCU file or MCU Power file\n"
 		(exclude_from_sim no)
 		(at 22.86 184.15 0)
 		(effects
