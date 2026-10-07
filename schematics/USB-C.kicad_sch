@@ -1598,9 +1598,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Stolen from Kingfisher\n"
+	(text "Stolen from Kingfisher\n\nSymbol from Altium. May need to replace"
 		(exclude_from_sim no)
-		(at 25.4 182.88 0)
+		(at 25.4 179.07 0)
 		(effects
 			(font
 				(face "Times New Roman")

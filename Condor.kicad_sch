@@ -36,7 +36,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "USB-C.kicad_sch"
+		(property "Sheetfile" "schematics/USB-C.kicad_sch"
 			(at 63.5 169.4946 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -82,7 +82,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "LSM6DSV320X.kicad_sch"
+		(property "Sheetfile" "schematics/LSM6DSV320X.kicad_sch"
 			(at 17.78 42.4946 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -128,7 +128,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Power.kicad_sch"
+		(property "Sheetfile" "schematics/Power.kicad_sch"
 			(at 109.22 137.7446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -174,7 +174,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "GPS.kicad_sch"
+		(property "Sheetfile" "schematics/GPS.kicad_sch"
 			(at 154.94 42.4946 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -231,7 +231,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Memory.kicad_sch"
+		(property "Sheetfile" "schematics/Memory.kicad_sch"
 			(at 154.94 105.9946 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -277,7 +277,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "MCU.kicad_sch"
+		(property "Sheetfile" "schematics/MCU.kicad_sch"
 			(at 63.5 105.9946 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -323,7 +323,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Barometer.kicad_sch"
+		(property "Sheetfile" "schematics/Barometer.kicad_sch"
 			(at 17.78 137.7446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -369,7 +369,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "BMI088.kicad_sch"
+		(property "Sheetfile" "schematics/BMI088.kicad_sch"
 			(at 17.78 105.9946 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -415,7 +415,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Magnetometer.kicad_sch"
+		(property "Sheetfile" "schematics/Magnetometer.kicad_sch"
 			(at 17.78 169.4946 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -461,7 +461,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ADXL375.kicad_sch"
+		(property "Sheetfile" "schematics/ADXL375.kicad_sch"
 			(at 17.78 74.2446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -507,7 +507,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Charging.kicad_sch"
+		(property "Sheetfile" "schematics/Charging.kicad_sch"
 			(at 63.5 137.7446 0)
 			(show_name no)
 			(do_not_autoplace no)
