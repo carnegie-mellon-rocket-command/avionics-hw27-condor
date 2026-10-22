@@ -19,9 +19,6 @@ Custom flight computer for CMRC's spaceshot
 | **Pyro** | N/A |
 | **Memory/storage?** (not sure if spec-ed) | N/A |
 
-## Tentative Pinouts
-<img width="333" height="372" alt="image" src="https://github.com/user-attachments/assets/49a0c9aa-3eff-461c-ae2a-8c9dbf7ae0b5" />
-
 ## Part Imports
 Import all of the following: symbol, footprint, and 3D model from component sites directly or from sites like [UltraLibrarian](https://www.ultralibrarian.com/) and [SnapMagic](https://www.snapeda.com/)
 
@@ -31,3 +28,9 @@ For the time being, put imported files into the pre-existing `Condor_Imported` l
 
 ## Misc Notes
 **Avoid merge conflicts:** don't edit the same file as someone else at the same time. Libraries might be a bit cooked, but we'll see
+
+## Tentative Pinouts
+<img width="333" height="372" alt="image" src="https://github.com/user-attachments/assets/49a0c9aa-3eff-461c-ae2a-8c9dbf7ae0b5" />
+
+## Todo
+- To use or not to use hardware interrupt pins for IMUs
