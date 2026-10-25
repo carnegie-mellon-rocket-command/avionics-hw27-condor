@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "condor.kicad_pro",
+    "filename": "Condor.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -661,7 +661,7 @@
         "uuid": "4a4947c5-540a-4852-b2fa-01bf36e5263c"
       }
     ],
-    "used_designators": "L1-2,LED3-6,J3,#PWR1-30,C3-24,R3,R8-28,IC1-2,U1-2,U5",
+    "used_designators": "L1-2,#PWR1-30,LED1-6,C3-24,J3,R3,R8-28,IC1-2,U1-2,U5",
     "variants": []
   },
   "sheets": [
@@ -670,16 +670,28 @@
       "Condor"
     ],
     [
-      "0a2ef9d1-01fa-4ebe-bda6-b281c88e5853",
-      "LSM6DSV320X"
+      "2d2df43c-d855-4dff-80de-ddb512f0975e",
+      "Power"
     ],
     [
-      "dbe9459c-dd4a-4f27-b50d-45cdaa1db3a3",
-      "ADXL375"
+      "bae38806-aa30-4cfb-a989-d69003fc2427",
+      "Pyros"
+    ],
+    [
+      "8f1778f3-bd19-480b-9779-2f0757c2265b",
+      "MCU"
+    ],
+    [
+      "0a2ef9d1-01fa-4ebe-bda6-b281c88e5853",
+      "IMU LSM6DSV320X"
     ],
     [
       "b0cac369-a40e-410e-881d-5538a03f6094",
-      "BMI088"
+      "IMU BMI088"
+    ],
+    [
+      "dbe9459c-dd4a-4f27-b50d-45cdaa1db3a3",
+      "IMU ADXL375"
     ],
     [
       "9e78c2f4-a213-4c4f-921f-e1db8d5f504c",
@@ -694,24 +706,16 @@
       "GPS"
     ],
     [
-      "8f1778f3-bd19-480b-9779-2f0757c2265b",
-      "MCU"
-    ],
-    [
-      "ee9dc90f-bec5-4609-8dff-21f81dcbf501",
-      "Charging"
-    ],
-    [
       "09ed57fe-d75d-4ac2-9ba5-8ebed7c830bc",
-      "USB-C"
-    ],
-    [
-      "2d2df43c-d855-4dff-80de-ddb512f0975e",
-      "Power"
+      "USB"
     ],
     [
       "57a4e470-3dc4-4e26-beb8-4c6c4d3cb769",
-      "Memory"
+      "Storage"
+    ],
+    [
+      "5c93a936-3cff-4f1f-94db-807a3003df75",
+      "RF"
     ]
   ],
   "text_variables": {},
