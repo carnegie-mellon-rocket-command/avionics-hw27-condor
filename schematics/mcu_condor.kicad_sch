@@ -5093,6 +5093,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Add interrupts\n"
+		(exclude_from_sim no)
+		(at 193.04 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1e2d2b3e-9f92-45de-95ec-018fbde6b88c")
+	)
 	(text "Cs set to NSS pin, which has predefined behavior. Switch to GPIO?"
 		(exclude_from_sim no)
 		(at 50.8 99.06 0)
@@ -5102,6 +5112,16 @@
 			)
 		)
 		(uuid "9837b636-9d23-45f3-8ef8-c0b0eabd2f07")
+	)
+	(text "Need more CS"
+		(exclude_from_sim no)
+		(at 83.82 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cec9a427-02a0-4a87-9a31-09a785e6b40d")
 	)
 	(text "What LEDS do I need?\nPower\nSafety\nPyros\nMCU\nMaybe GPS and whatnot"
 		(exclude_from_sim no)
@@ -5123,6 +5143,118 @@
 			)
 		)
 		(uuid "f3c1a110-8185-441f-b65c-51e5482af6c6")
+	)
+	(no_connect
+		(at 106.68 115.57)
+		(uuid "02c14588-e5bb-4999-a470-03dce007cbeb")
+	)
+	(no_connect
+		(at 172.72 74.93)
+		(uuid "08d794ee-5552-4b92-a38e-0b8e54420cc8")
+	)
+	(no_connect
+		(at 106.68 113.03)
+		(uuid "1c261fd7-e54b-4308-996c-1c0b1c8669fe")
+	)
+	(no_connect
+		(at 172.72 107.95)
+		(uuid "2377de5a-5f34-452f-9716-2b238fd7ba21")
+	)
+	(no_connect
+		(at 172.72 72.39)
+		(uuid "294c2f4e-ee22-4e17-9ba8-0cacdeea4d61")
+	)
+	(no_connect
+		(at 106.68 82.55)
+		(uuid "3c2eedd2-4be9-4f7c-ac95-f2858c61e0ef")
+	)
+	(no_connect
+		(at 172.72 92.71)
+		(uuid "408587ab-5705-4b56-b6c0-e6684784a334")
+	)
+	(no_connect
+		(at 172.72 69.85)
+		(uuid "4b84d484-c081-4b0d-80f8-e0bd0430d2f1")
+	)
+	(no_connect
+		(at 106.68 80.01)
+		(uuid "4d6d12c7-9d69-4f15-998c-ad897105e107")
+	)
+	(no_connect
+		(at 172.72 82.55)
+		(uuid "526d2c51-777e-478f-a16b-bf25ab401043")
+	)
+	(no_connect
+		(at 106.68 90.17)
+		(uuid "58b8c83c-66aa-4736-94ba-393f586ebffe")
+	)
+	(no_connect
+		(at 106.68 100.33)
+		(uuid "5931c1e3-d4d9-4588-b3a6-9c91971999bc")
+	)
+	(no_connect
+		(at 106.68 95.25)
+		(uuid "5d03f52a-24ef-45b3-98f3-6516f11225a9")
+	)
+	(no_connect
+		(at 172.72 80.01)
+		(uuid "64931053-4bd0-4e82-a864-cbf06392a18f")
+	)
+	(no_connect
+		(at 106.68 85.09)
+		(uuid "6dca8b18-1479-4ffc-aacd-bfdd724d4bcd")
+	)
+	(no_connect
+		(at 172.72 85.09)
+		(uuid "6e0a8b28-fd55-40f1-b4f7-95a4bd207fd0")
+	)
+	(no_connect
+		(at 106.68 87.63)
+		(uuid "76e01e05-395a-4a89-8824-f561de2d132a")
+	)
+	(no_connect
+		(at 106.68 97.79)
+		(uuid "79d63cc5-5269-4d1d-8d91-7c19ae765239")
+	)
+	(no_connect
+		(at 106.68 102.87)
+		(uuid "90422604-e7c0-4a63-9f2d-31ed7060d6c5")
+	)
+	(no_connect
+		(at 172.72 87.63)
+		(uuid "a39cf6c8-f111-4d02-bd29-aae55e89fd1a")
+	)
+	(no_connect
+		(at 172.72 105.41)
+		(uuid "a97ee02b-3cb5-4acc-b58e-2cc06dcc5ae3")
+	)
+	(no_connect
+		(at 106.68 105.41)
+		(uuid "c32b16cf-1628-4048-86ac-456694d45c7e")
+	)
+	(no_connect
+		(at 106.68 138.43)
+		(uuid "c8e5d9f5-4058-4988-824a-0ea04150fe76")
+	)
+	(no_connect
+		(at 106.68 118.11)
+		(uuid "dc7581f2-3f18-41dd-833b-56e48dae0588")
+	)
+	(no_connect
+		(at 172.72 90.17)
+		(uuid "f1f6e47c-3d05-486b-81db-6b215f9d6ea0")
+	)
+	(no_connect
+		(at 172.72 102.87)
+		(uuid "f47cfdcc-af88-48fc-9d4d-e6abc53c28d6")
+	)
+	(no_connect
+		(at 172.72 77.47)
+		(uuid "f68648d6-2807-486d-a56c-84841e39210b")
+	)
+	(no_connect
+		(at 106.68 92.71)
+		(uuid "fbf7c42d-f80c-425e-9456-76058d5908cc")
 	)
 	(wire
 		(pts
@@ -5206,13 +5338,23 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 130.81) (xy 106.68 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d2439ae-30a0-4596-b07a-e20375470213")
+	)
+	(wire
+		(pts
 			(xy 172.72 113.03) (xy 187.96 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4165105a-1268-40d8-bfe9-4fd5e9c8770e")
+		(uuid "6252e2aa-1bb9-4929-b436-f767d65630e2")
 	)
 	(wire
 		(pts
@@ -5286,6 +5428,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 107.95) (xy 106.68 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0018ec5-5c46-45e9-8847-d794f11a5c74")
+	)
+	(wire
+		(pts
 			(xy 91.44 143.51) (xy 106.68 143.51)
 		)
 		(stroke
@@ -5304,7 +5456,7 @@
 		)
 		(uuid "ff594ea6-3c04-484f-a23a-255c7208d72d")
 	)
-	(label "SPI1_CS"
+	(label "SPI1_CS1"
 		(at 91.44 128.27 0)
 		(effects
 			(font
@@ -5384,8 +5536,18 @@
 		)
 		(uuid "5f7fc62f-4cc7-4ca2-9f95-788abcf19ca9")
 	)
+	(label "UART5_2?"
+		(at 91.44 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "619a6d3e-f7b5-4bf5-80d2-2ac83a4850ac")
+	)
 	(label "SPI3_CS"
-		(at 179.07 113.03 0)
+		(at 91.44 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5404,6 +5566,16 @@
 		)
 		(uuid "7b840b86-8917-475f-a062-167102c74092")
 	)
+	(label "SPI1_CS2"
+		(at 91.44 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98b05e71-a529-4856-8193-cf4d4f88fb4a")
+	)
 	(label "SPI2_CS"
 		(at 91.44 140.97 0)
 		(effects
@@ -5414,7 +5586,7 @@
 		)
 		(uuid "9c584bab-3e27-4d33-8e07-54d9a3314ac0")
 	)
-	(label "UART5"
+	(label "UART5_?"
 		(at 91.44 133.35 0)
 		(effects
 			(font
@@ -5433,6 +5605,16 @@
 			(justify left bottom)
 		)
 		(uuid "a533f0c5-02d0-4883-b121-dca302c467d6")
+	)
+	(label "SPI1_CS3"
+		(at 179.07 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b443eeaf-8e9e-40ce-9590-86e7d5b111fe")
 	)
 	(label "SPI1_MISO"
 		(at 91.44 123.19 0)
@@ -5743,6 +5925,252 @@
 		)
 	)
 	(symbol
+		(lib_id "LED_LTST-C193KRKT-5A:LTST-C193KRKT-5A")
+		(at 248.92 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "157e1da3-8a10-4640-927e-f22a7dae686d")
+		(property "Reference" "LED_RF_RX"
+			(at 255.27 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LTST-C193KRKT-5A"
+			(at 255.27 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "LED_LTST-C193KRKT-5A:LED_LTST-C193KRKT-5A"
+			(at 248.92 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2005-077/LTST-C193KRKT-5A.PDF"
+			(at 248.92 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "20d48f00-bea2-4735-8e4b-cdc0ddf64a6b")
+		)
+		(pin "1"
+			(uuid "738f971c-3299-4928-b6e6-4af4d9cc69b8")
+		)
+		(instances
+			(project "Condor"
+				(path "/4a4947c5-540a-4852-b2fa-01bf36e5263c/8f1778f3-bd19-480b-9779-2f0757c2265b"
+					(reference "LED_RF_RX")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED_LTST-C193KGKT-5A:LTST-C193KGKT-5A")
+		(at 212.09 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15ef3eb1-e3e8-4a66-b7f6-63ea62bba541")
+		(property "Reference" "LED_GPS"
+			(at 218.44 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LTST-C193KGKT-5A"
+			(at 218.44 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "LED_LTST-C193KGKT-5A:LED_LTST-C193KGKT-5A"
+			(at 212.09 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2007-0094/LTST-C193KGKT-5A.PDF"
+			(at 212.09 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c7aa6e24-bc2c-4250-a7b7-8300a1133935")
+		)
+		(pin "1"
+			(uuid "16533136-8626-4361-b14a-60415bef6da8")
+		)
+		(instances
+			(project "Condor"
+				(path "/4a4947c5-540a-4852-b2fa-01bf36e5263c/8f1778f3-bd19-480b-9779-2f0757c2265b"
+					(reference "LED_GPS")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED_LTST-C193KRKT-5A:LTST-C193KRKT-5A")
+		(at 248.92 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "503239e6-1cc3-4914-9487-2df070b81dc6")
+		(property "Reference" "LED_PYRO"
+			(at 255.27 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LTST-C193KRKT-5A"
+			(at 255.27 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "LED_LTST-C193KRKT-5A:LED_LTST-C193KRKT-5A"
+			(at 248.92 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2005-077/LTST-C193KRKT-5A.PDF"
+			(at 248.92 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2870bd13-1503-464c-bfe9-ab01590e548c")
+		)
+		(pin "1"
+			(uuid "4676fe26-88f2-4171-9787-ff34473c6975")
+		)
+		(instances
+			(project "Condor"
+				(path "/4a4947c5-540a-4852-b2fa-01bf36e5263c/8f1778f3-bd19-480b-9779-2f0757c2265b"
+					(reference "LED_PYRO")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED_LTST-C193KGKT-5A:LTST-C193KGKT-5A")
 		(at 212.09 76.2 0)
 		(unit 1)
@@ -5754,7 +6182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fef19ab-f94c-4422-b322-e985699a0ac2")
-		(property "Reference" "LED1"
+		(property "Reference" "LED_POWER"
 			(at 218.44 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5818,7 +6246,7 @@
 		(instances
 			(project "Condor"
 				(path "/4a4947c5-540a-4852-b2fa-01bf36e5263c/8f1778f3-bd19-480b-9779-2f0757c2265b"
-					(reference "LED1")
+					(reference "LED_POWER")
 					(unit 1)
 				)
 			)
@@ -5826,7 +6254,7 @@
 	)
 	(symbol
 		(lib_id "LED_LTST-C193KRKT-5A:LTST-C193KRKT-5A")
-		(at 212.09 93.98 0)
+		(at 248.92 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5835,9 +6263,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ce4bfca9-4c17-4162-a360-3c9b095b4ccb")
-		(property "Reference" "LED2"
-			(at 218.44 83.82 0)
+		(uuid "99d6f4ae-1156-4278-99c5-1099e1a2ca0c")
+		(property "Reference" "LED_RF_TX"
+			(at 255.27 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5847,7 +6275,7 @@
 			)
 		)
 		(property "Value" "LTST-C193KRKT-5A"
-			(at 218.44 86.36 0)
+			(at 255.27 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5857,7 +6285,7 @@
 			)
 		)
 		(property "Footprint" "LED_LTST-C193KRKT-5A:LED_LTST-C193KRKT-5A"
-			(at 212.09 93.98 0)
+			(at 248.92 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5869,7 +6297,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2005-077/LTST-C193KRKT-5A.PDF"
-			(at 212.09 93.98 0)
+			(at 248.92 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5881,7 +6309,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 93.98 0)
+			(at 248.92 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5892,15 +6320,97 @@
 			)
 		)
 		(pin "2"
-			(uuid "c6ed0f6d-7015-46b7-94e4-5bdd44f629fa")
+			(uuid "422814ec-05ac-4fc1-ac66-f7e19435d635")
 		)
 		(pin "1"
-			(uuid "f181cf4f-f6e6-4ff1-b402-22c939ab1406")
+			(uuid "7cd68b8f-f150-479a-8b08-c7619b5510f1")
 		)
 		(instances
 			(project "Condor"
 				(path "/4a4947c5-540a-4852-b2fa-01bf36e5263c/8f1778f3-bd19-480b-9779-2f0757c2265b"
-					(reference "LED2")
+					(reference "LED_RF_TX")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED_LTST-C193KRKT-5A:LTST-C193KRKT-5A")
+		(at 248.92 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eee18d17-0250-408e-8220-47e8a8631d57")
+		(property "Reference" "LED_MCU_STATUS"
+			(at 255.27 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LTST-C193KRKT-5A"
+			(at 255.27 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "LED_LTST-C193KRKT-5A:LED_LTST-C193KRKT-5A"
+			(at 248.92 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2005-077/LTST-C193KRKT-5A.PDF"
+			(at 248.92 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "269c0d8b-118f-47c9-bc77-d6bc54fecd30")
+		)
+		(pin "1"
+			(uuid "30c2c9c4-6409-4e3f-8f13-920ae2fcde3e")
+		)
+		(instances
+			(project "Condor"
+				(path "/4a4947c5-540a-4852-b2fa-01bf36e5263c/8f1778f3-bd19-480b-9779-2f0757c2265b"
+					(reference "LED_MCU_STATUS")
 					(unit 1)
 				)
 			)
