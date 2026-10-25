@@ -13,7 +13,7 @@
 	(lib_symbols)
 	(rectangle
 		(start 213.36 25.4)
-		(end 271.78 148.59)
+		(end 271.78 154.94)
 		(stroke
 			(width 0)
 			(type default)
@@ -63,7 +63,7 @@
 	)
 	(sheet
 		(at 217.17 34.29)
-		(size 50.8 50.8)
+		(size 50.8 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -89,7 +89,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/usb_condor.kicad_sch"
-			(at 217.17 85.6746 0)
+			(at 217.17 66.6246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -246,8 +246,8 @@
 		)
 	)
 	(sheet
-		(at 217.17 92.71)
-		(size 50.8 50.8)
+		(at 217.17 76.2)
+		(size 50.8 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -262,7 +262,7 @@
 		)
 		(uuid "57a4e470-3dc4-4e26-beb8-4c6c4d3cb769")
 		(property "Sheetname" "Storage"
-			(at 217.17 91.9984 0)
+			(at 217.17 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -273,7 +273,7 @@
 			)
 		)
 		(property "Sheetfile" "schematics/storage_condor.kicad_sch"
-			(at 217.17 144.0946 0)
+			(at 217.17 108.5346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -287,6 +287,52 @@
 			(project "condor"
 				(path "/4a4947c5-540a-4852-b2fa-01bf36e5263c"
 					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 217.17 118.11)
+		(size 50.8 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 153 0 0.25)
+		)
+		(uuid "5c93a936-3cff-4f1f-94db-807a3003df75")
+		(property "Sheetname" "RF"
+			(at 217.17 117.3984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/rf_condor.kicad_sch"
+			(at 217.17 150.4446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "condor"
+				(path "/4a4947c5-540a-4852-b2fa-01bf36e5263c"
+					(page "13")
 				)
 			)
 		)
