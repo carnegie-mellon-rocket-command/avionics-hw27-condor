@@ -28,4 +28,5 @@
 	(lib (name "power") (type "KiCad") (uri "${KIPRJMOD}/libraries/power/power.kicad_sym") (options "") (descr ""))
 	(lib (name "testpoint") (type "KiCad") (uri "${KIPRJMOD}/libraries/testpoint/testpoint.kicad_sym") (options "") (descr ""))
 	(lib (name "BMI088") (type "KiCad") (uri "${KIPRJMOD}/libraries/BMI088/BMI088.kicad_sym") (options "") (descr ""))
+	(lib (name "ADXL375") (type "KiCad") (uri "${KIPRJMOD}/libraries/ul_ADXL375BCCZ-RL7/KiCADv6/2026-11-01_20-47-26.kicad_sym") (options "") (descr ""))
 )
