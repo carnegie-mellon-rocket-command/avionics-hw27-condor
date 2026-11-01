@@ -29,4 +29,5 @@
 	(lib (name "U_TPS61023DRLR") (type "KiCad") (uri "${KIPRJMOD}/libraries/U_TPS61023DRLR/footprints.pretty") (options "") (descr ""))
 	(lib (name "libraries") (type "KiCad") (uri "${KIPRJMOD}/libraries/footprints.pretty") (options "") (descr ""))
 	(lib (name "testpoint") (type "KiCad") (uri "${KIPRJMOD}/libraries/testpoint/footprints.pretty") (options "") (descr ""))
+	(lib (name "LIS3MDL") (type "KiCad") (uri "${KIPRJMOD}/libraries/LIS3MDL/footprints.pretty") (options "") (descr ""))
 )
