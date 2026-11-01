@@ -1,5 +1,6 @@
 (sym_lib_table
 	(version 7)
+	(lib (name "2026-11-01_21-11-24") (type "KiCad") (uri "${KIPRJMOD}/libraries/ul_STM32F413RGT6/2026-11-01_21-11-24.kicad_sym") (options "") (descr ""))
 	(lib (name "C_CC0603CG100V102JN") (type "KiCad") (uri "${KIPRJMOD}/libraries/C_CC0603CG100V102JN/C_CC0603CG100V102JN.kicad_sym") (options "") (descr ""))
 	(lib (name "C_CL05B103KO5NNNC") (type "KiCad") (uri "${KIPRJMOD}/libraries/C_CL05B103KO5NNNC/C_CL05B103KO5NNNC.kicad_sym") (options "") (descr ""))
 	(lib (name "C_GRM155R61A105KE15D") (type "KiCad") (uri "${KIPRJMOD}/libraries/C_GRM155R61A105KE15D/C_GRM155R61A105KE15D.kicad_sym") (options "") (descr ""))
