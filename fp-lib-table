@@ -23,6 +23,7 @@
 	(lib (name "SW_PTS526SK15SMTR2LFS") (type "KiCad") (uri "${KIPRJMOD}/libraries/SW_PTS526SK15SMTR2LFS/footprints.pretty") (options "") (descr ""))
 	(lib (name "U_BQ24074RGTT") (type "KiCad") (uri "${KIPRJMOD}/libraries/U_BQ24074RGTT/footprints.pretty") (options "") (descr ""))
 	(lib (name "U_LSM6DSV320XTR") (type "KiCad") (uri "${KIPRJMOD}/libraries/U_LSM6DSV320XTR/footprints.pretty") (options "") (descr ""))
+	(lib (name "U_MS5611-01BA03") (type "KiCad") (uri "${KIPRJMOD}/libraries/U_MS5611-01BA03/footprints.pretty") (options "") (descr ""))
 	(lib (name "U_STM32F413RGT6") (type "KiCad") (uri "${KIPRJMOD}/libraries/U_STM32F413RGT6/footprints.pretty") (options "") (descr ""))
 	(lib (name "U_TPS2116DRLR") (type "KiCad") (uri "${KIPRJMOD}/libraries/U_TPS2116DRLR/footprints.pretty") (options "") (descr ""))
 	(lib (name "U_TPS61023DRLR") (type "KiCad") (uri "${KIPRJMOD}/libraries/U_TPS61023DRLR/footprints.pretty") (options "") (descr ""))
