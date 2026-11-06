@@ -1,5 +1,7 @@
 (sym_lib_table
 	(version 7)
+	(lib (name "ABM8-25_000MHZ-10-D1G-T_ABR") (type "KiCad") (uri "${KIPRJMOD}/libraries/U_ABM8-25000MHZ-10-D1G-T/ABM8-25_000MHZ-10-D1G-T_ABR.kicad_sym") (options "") (descr ""))
+	(lib (name "C_CC0603CG100V100JN") (type "KiCad") (uri "${KIPRJMOD}/libraries/C_CC0603CG50V100JN/C_CC0603CG100V100JN.kicad_sym") (options "") (descr ""))
 	(lib (name "C_CC0603CG100V102JN") (type "KiCad") (uri "${KIPRJMOD}/libraries/C_CC0603CG100V102JN/C_CC0603CG100V102JN.kicad_sym") (options "") (descr ""))
 	(lib (name "C_CL05B103KO5NNNC") (type "KiCad") (uri "${KIPRJMOD}/libraries/C_CL05B103KO5NNNC/C_CL05B103KO5NNNC.kicad_sym") (options "") (descr ""))
 	(lib (name "C_GRM155R61A105KE15D") (type "KiCad") (uri "${KIPRJMOD}/libraries/C_GRM155R61A105KE15D/C_GRM155R61A105KE15D.kicad_sym") (options "") (descr ""))
@@ -20,6 +22,7 @@
 	(lib (name "Q_NDS7002A") (type "KiCad") (uri "${KIPRJMOD}/libraries/Q_NDS7002A/Q_NDS7002A.kicad_sym") (options "") (descr ""))
 	(lib (name "R_RC0402FR") (type "KiCad") (uri "${KIPRJMOD}/libraries/R_RC0402FR/R_RC0402FR.kicad_sym") (options "") (descr ""))
 	(lib (name "SW_PTS526SK15SMTR2LFS") (type "KiCad") (uri "${KIPRJMOD}/libraries/SW_PTS526SK15SMTR2LFS/SW_PTS526SK15SMTR2LFS.kicad_sym") (options "") (descr ""))
+	(lib (name "U_ASE-25000MHZ-L-C-T") (type "KiCad") (uri "${KIPRJMOD}/libraries/U_ASE-25000MHZ-L-C-T/U_ASE-25000MHZ-L-C-T.kicad_sym") (options "") (descr ""))
 	(lib (name "U_BQ24074RGTT") (type "KiCad") (uri "${KIPRJMOD}/libraries/U_BQ24074RGTT/U_BQ24074RGTT.kicad_sym") (options "") (descr ""))
 	(lib (name "U_LSM6DSV320XTR") (type "KiCad") (uri "${KIPRJMOD}/libraries/U_LSM6DSV320XTR/U_LSM6DSV320XTR.kicad_sym") (options "") (descr ""))
 	(lib (name "U_STM32F413RGT6") (type "KiCad") (uri "${KIPRJMOD}/libraries/U_STM32F413RGT6/U_STM32F413RGT6.kicad_sym") (options "") (descr ""))
@@ -27,5 +30,4 @@
 	(lib (name "U_TPS61023DRLR") (type "KiCad") (uri "${KIPRJMOD}/libraries/U_TPS61023DRLR/U_TPS61023DRLR.kicad_sym") (options "") (descr ""))
 	(lib (name "power") (type "KiCad") (uri "${KIPRJMOD}/libraries/power/power.kicad_sym") (options "") (descr ""))
 	(lib (name "testpoint") (type "KiCad") (uri "${KIPRJMOD}/libraries/testpoint/testpoint.kicad_sym") (options "") (descr ""))
-	(lib (name "U_ASE-25000MHZ-L-C-T") (type "KiCad") (uri "${KIPRJMOD}/libraries/U_ASE-25000MHZ-L-C-T/U_ASE-25000MHZ-L-C-T.kicad_sym") (options "") (descr ""))
 )
