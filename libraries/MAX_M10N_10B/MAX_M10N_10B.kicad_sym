@@ -31,7 +31,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MOD18_MAX-M10M_UBL"
+		(property "Footprint" "MAX_M10N_10B:MOD18_MAX-M10M_UBL"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43,7 +43,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "MAX-M10M-00B"
+		(property "Datasheet" "https://content.u-blox.com/sites/default/files/documents/MAX-M10N-10B_DataSheet_UBXDOC-304424225-18248.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55,7 +55,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "u-blox M10 GNSS module, SAW-LNA-SAW front end, UART, LCC 9.7x10.1mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -76,7 +76,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "MAX-M10M-00B"
+		(property "ki_keywords" "MAX-M10N-10B GNSS GPS u-blox"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -147,7 +147,7 @@
 					(type none)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 0 0 0)
 				(length 7.62)
 				(name "GND"
@@ -309,7 +309,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 66.04 -20.32 180)
 				(length 7.62)
 				(name "GND"
@@ -345,7 +345,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 66.04 -15.24 180)
 				(length 7.62)
 				(name "GND"
@@ -381,7 +381,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_out line
 				(at 66.04 -10.16 180)
 				(length 7.62)
 				(name "VCC_RF"
@@ -417,10 +417,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin no_connect line
 				(at 66.04 -5.08 180)
 				(length 7.62)
-				(name "SDA"
+				(name "Reserved"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -435,10 +435,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin no_connect line
 				(at 66.04 -2.54 180)
 				(length 7.62)
-				(name "SCL"
+				(name "Reserved"
 					(effects
 						(font
 							(size 1.27 1.27)
