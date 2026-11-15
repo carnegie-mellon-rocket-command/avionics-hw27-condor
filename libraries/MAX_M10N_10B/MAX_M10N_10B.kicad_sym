@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Footprint" "MAX_M10N_10B:MOD18_MAX-M10M_UBL"
-			(at 0 0 0)
+			(at -40.894 8.636 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -44,7 +44,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.u-blox.com/sites/default/files/documents/MAX-M10N-10B_DataSheet_UBXDOC-304424225-18248.pdf"
-			(at 0 0 0)
+			(at -4.318 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -56,7 +56,7 @@
 			)
 		)
 		(property "Description" "u-blox M10 GNSS module, SAW-LNA-SAW front end, UART, LCC 9.7x10.1mm"
-			(at 0 0 0)
+			(at -23.622 12.446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -148,7 +148,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 0 0)
+				(at 0 -22.86 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -166,7 +166,7 @@
 				)
 			)
 			(pin output line
-				(at 0 -2.54 0)
+				(at 0 -6.35 0)
 				(length 7.62)
 				(name "TXD"
 					(effects
@@ -184,7 +184,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -5.08 0)
+				(at 0 -8.89 0)
 				(length 7.62)
 				(name "RXD"
 					(effects
@@ -202,7 +202,7 @@
 				)
 			)
 			(pin output line
-				(at 0 -7.62 0)
+				(at 0 -13.97 0)
 				(length 7.62)
 				(name "TIMEPULSE"
 					(effects
@@ -220,7 +220,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -10.16 0)
+				(at 0 -11.43 0)
 				(length 7.62)
 				(name "EXTINT"
 					(effects
@@ -238,7 +238,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -12.7 0)
+				(at 0 3.81 0)
 				(length 7.62)
 				(name "V_BCKP"
 					(effects
@@ -256,7 +256,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -15.24 0)
+				(at 0 1.27 0)
 				(length 7.62)
 				(name "V_IO"
 					(effects
@@ -274,7 +274,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -17.78 0)
+				(at 0 -1.27 0)
 				(length 7.62)
 				(name "VCC"
 					(effects
@@ -292,7 +292,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -20.32 0)
+				(at 0 -16.51 0)
 				(length 7.62)
 				(name "RESET_N"
 					(effects
@@ -310,7 +310,7 @@
 				)
 			)
 			(pin power_in line
-				(at 66.04 -20.32 180)
+				(at 58.42 -22.86 180)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -328,7 +328,7 @@
 				)
 			)
 			(pin input line
-				(at 66.04 -17.78 180)
+				(at 66.04 -15.24 180)
 				(length 7.62)
 				(name "RF_IN"
 					(effects
@@ -346,7 +346,7 @@
 				)
 			)
 			(pin power_in line
-				(at 66.04 -15.24 180)
+				(at 58.42 -20.32 180)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -418,7 +418,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 66.04 -5.08 180)
+				(at 66.04 -2.54 180)
 				(length 7.62)
 				(name "Reserved"
 					(effects
@@ -436,7 +436,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 66.04 -2.54 180)
+				(at 66.04 0 180)
 				(length 7.62)
 				(name "Reserved"
 					(effects
@@ -454,7 +454,7 @@
 				)
 			)
 			(pin input line
-				(at 66.04 0 180)
+				(at 66.04 2.54 180)
 				(length 7.62)
 				(name "SAFEBOOT_N"
 					(effects
