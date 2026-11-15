@@ -310,7 +310,7 @@
 				)
 			)
 			(pin power_in line
-				(at 58.42 -22.86 180)
+				(at 66.04 -22.86 180)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -346,7 +346,7 @@
 				)
 			)
 			(pin power_in line
-				(at 58.42 -20.32 180)
+				(at 66.04 -20.32 180)
 				(length 7.62)
 				(name "GND"
 					(effects
