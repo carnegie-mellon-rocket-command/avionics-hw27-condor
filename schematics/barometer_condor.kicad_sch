@@ -985,7 +985,7 @@
 	)
 	(text "TO SELECT THE BAROMETER\nPULL LOW"
 		(exclude_from_sim no)
-		(at 189.23 63.246 0)
+		(at 188.214 66.294 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1044,6 +1044,15 @@
 			(type default)
 		)
 		(uuid "089599d4-e272-4075-8857-9eea7133037e")
+	)
+	(bus_entry
+		(at 168.91 66.04)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb01ead-a634-47f7-a94a-0be6543245bc")
 	)
 	(bus_entry
 		(at 35.56 73.66)
@@ -1223,13 +1232,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 58.42) (xy 203.2 68.58)
+			(xy 171.45 68.58) (xy 212.09 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "882ad238-14e0-4bda-bed7-87f26b065295")
+		(uuid "93ec951d-050c-4ae3-9ee7-e0ad0ea42446")
 	)
 	(wire
 		(pts
@@ -1283,16 +1292,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 68.58) (xy 203.2 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddbb8d91-2180-466c-a659-fc1cdaefde84")
-	)
-	(wire
-		(pts
 			(xy 208.28 66.04) (xy 212.09 66.04)
 		)
 		(stroke
@@ -1321,8 +1320,8 @@
 		)
 		(uuid "0fec404e-3292-4dd8-be05-93445c0c6e3c")
 	)
-	(label "BAROMETER_SPI_BUS"
-		(at 196.85 71.12 0)
+	(label "BAROMETER_SPI_CHIP_SELECT"
+		(at 175.26 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1416,30 +1415,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "BAROMETER_SPI_IO"
-		(shape input)
-		(at 203.2 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d0db58bb-a003-4a07-afc8-09d05c86980a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.3139 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -1693,7 +1668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2febc335-d944-4ba3-aba8-480195f0005e")
-		(property "Reference" "U3"
+		(property "Reference" "U801"
 			(at 96.52 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1907,7 +1882,7 @@
 		(instances
 			(project "Condor"
 				(path "/4a4947c5-540a-4852-b2fa-01bf36e5263c/9e78c2f4-a213-4c4f-921f-e1db8d5f504c"
-					(reference "U3")
+					(reference "U801")
 					(unit 1)
 				)
 			)
@@ -2163,7 +2138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71c42687-6360-446b-9c67-1121bce84c73")
-		(property "Reference" "U4"
+		(property "Reference" "U802"
 			(at 229.87 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2377,7 +2352,7 @@
 		(instances
 			(project "Condor"
 				(path "/4a4947c5-540a-4852-b2fa-01bf36e5263c/9e78c2f4-a213-4c4f-921f-e1db8d5f504c"
-					(reference "U4")
+					(reference "U802")
 					(unit 1)
 				)
 			)
