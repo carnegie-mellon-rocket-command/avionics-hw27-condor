@@ -7020,6 +7020,16 @@
 		)
 		(uuid "6a9eb79d-e0b9-4b41-80c3-7b1236bfbae8")
 	)
+	(text "Confirm that oscillator caps are 10 pF\n"
+		(exclude_from_sim no)
+		(at 224.79 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "808b11cf-3385-4779-8506-84d69bbdca31")
+	)
 	(text "Cs set to NSS pin, which has predefined behavior. Switch to GPIO?"
 		(exclude_from_sim no)
 		(at 50.8 168.91 0)
