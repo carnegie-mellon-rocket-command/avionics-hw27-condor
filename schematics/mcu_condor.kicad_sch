@@ -4091,7 +4091,7 @@
 			(uuid "bf0a1a79-39fe-443d-be35-4615cb1801e5")
 		)
 		(instances
-			(project "condor"
+			(project "Condor"
 				(path "/4a4947c5-540a-4852-b2fa-01bf36e5263c/8f1778f3-bd19-480b-9779-2f0757c2265b"
 					(reference "U2")
 					(unit 1)

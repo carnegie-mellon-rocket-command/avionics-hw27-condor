@@ -27,4 +27,6 @@
 	(lib (name "U_TPS61023DRLR") (type "KiCad") (uri "${KIPRJMOD}/libraries/U_TPS61023DRLR/U_TPS61023DRLR.kicad_sym") (options "") (descr ""))
 	(lib (name "power") (type "KiCad") (uri "${KIPRJMOD}/libraries/power/power.kicad_sym") (options "") (descr ""))
 	(lib (name "testpoint") (type "KiCad") (uri "${KIPRJMOD}/libraries/testpoint/testpoint.kicad_sym") (options "") (descr ""))
+	(lib (name "U_SX2162") (type "KiCad") (uri "${KIPRJMOD}/libraries/U_SX2162/U_SX2162.kicad_sym") (options "") (descr ""))
+	(lib (name "U_U.FL-R-SMT-1(10)") (type "KiCad") (uri "${KIPRJMOD}/libraries/U_U.FL-R-SMT-1(10)/U_U.FL-R-SMT-1(10).kicad_sym") (options "") (descr ""))
 )
