@@ -279,7 +279,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "U_MS5611-01BA03:MS5611-01BA03"
+		(symbol "U_MS5611-01BA03:U_MS5611-01BA03"
 			(pin_names
 				(offset 1.016)
 			)
@@ -310,7 +310,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "MS5611-01BA03:SON125P500X300X100-8N"
+			(property "Footprint" "U_MS5611-01BA03:U_MS5611-01BA03"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -477,7 +477,7 @@
 					(justify bottom)
 				)
 			)
-			(symbol "MS5611-01BA03_0_0"
+			(symbol "U_MS5611-01BA03_1_1"
 				(rectangle
 					(start -12.7 -12.7)
 					(end 12.7 12.7)
@@ -1657,7 +1657,7 @@
 		)
 	)
 	(symbol
-		(lib_id "U_MS5611-01BA03:MS5611-01BA03")
+		(lib_id "U_MS5611-01BA03:U_MS5611-01BA03")
 		(at 96.52 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -1688,7 +1688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MS5611-01BA03:SON125P500X300X100-8N"
+		(property "Footprint" "U_MS5611-01BA03:U_MS5611-01BA03"
 			(at 96.52 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2127,7 +2127,7 @@
 		)
 	)
 	(symbol
-		(lib_id "U_MS5611-01BA03:MS5611-01BA03")
+		(lib_id "U_MS5611-01BA03:U_MS5611-01BA03")
 		(at 229.87 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -2158,7 +2158,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MS5611-01BA03:SON125P500X300X100-8N"
+		(property "Footprint" "U_MS5611-01BA03:U_MS5611-01BA03"
 			(at 229.87 71.12 0)
 			(hide yes)
 			(show_name no)

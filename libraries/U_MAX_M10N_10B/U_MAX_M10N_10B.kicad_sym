@@ -31,7 +31,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX_M10N_10B:MOD18_MAX-M10M_UBL"
+		(property "Footprint" "U_MAX_M10N_10B:U_MAX_M10N_10B"
 			(at -40.894 8.636 0)
 			(show_name no)
 			(do_not_autoplace no)

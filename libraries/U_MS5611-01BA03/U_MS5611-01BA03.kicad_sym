@@ -46,7 +46,7 @@
     (property "MANUFACTURER" "TE Connectivity" (id 15) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (symbol "MS5611-01BA03_0_0"
+    (symbol "U_MS5611-01BA03_1_1"
       (rectangle (start -12.7 -12.7) (end 12.7 12.7)
         (stroke (width 0.254)) (fill (type background))
       )
