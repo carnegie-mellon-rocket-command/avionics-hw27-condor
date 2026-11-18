@@ -716,6 +716,10 @@
     [
       "5c93a936-3cff-4f1f-94db-807a3003df75",
       "RF"
+    ],
+    [
+      "3293959d-cfda-426c-8afa-03c1c61701f1",
+      "STM32 Power"
     ]
   ],
   "text_variables": {},
