@@ -985,7 +985,7 @@
 	)
 	(text "TO SELECT THE BAROMETER\nPULL LOW"
 		(exclude_from_sim no)
-		(at 188.214 66.294 0)
+		(at 188.214 62.484 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1150,6 +1150,16 @@
 		)
 		(uuid "45b0efbc-b9c0-40cc-8720-596c8386506d")
 	)
+	(bus
+		(pts
+			(xy 168.91 73.66) (xy 168.91 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fafd1f9-1cb8-4f97-bdf6-af3ae4ece43a")
+	)
 	(wire
 		(pts
 			(xy 130.81 60.96) (xy 134.62 60.96)
@@ -1302,7 +1312,7 @@
 	)
 	(bus
 		(pts
-			(xy 168.91 49.53) (xy 168.91 95.25)
+			(xy 168.91 49.53) (xy 168.91 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1311,7 +1321,7 @@
 		(uuid "ef5d128d-0fab-4213-bb5d-16c314b58649")
 	)
 	(label "BAROMETER_SPI_SCL"
-		(at 175.26 73.66 0)
+		(at 171.45 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1321,7 +1331,7 @@
 		(uuid "0fec404e-3292-4dd8-be05-93445c0c6e3c")
 	)
 	(label "BAROMETER_SPI_CHIP_SELECT"
-		(at 175.26 71.12 0)
+		(at 171.45 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1341,7 +1351,7 @@
 		(uuid "a3a2efeb-470a-43f7-848b-8d7a1deacca3")
 	)
 	(label "BAROMETER_SPI_SDI"
-		(at 175.26 78.74 0)
+		(at 171.45 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)

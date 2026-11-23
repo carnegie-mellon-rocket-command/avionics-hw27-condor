@@ -2108,7 +2108,7 @@
 		)
 		(uuid "f6753953-fbae-47c0-85ab-247aaf4ee27b")
 	)
-	(label "IMU1_MOSI"
+	(label "IMU1_SPI_MOSI"
 		(at 71.12 83.82 0)
 		(effects
 			(font
@@ -2118,7 +2118,7 @@
 		)
 		(uuid "1c2a20c0-d01a-463b-8272-01ac4dc79e2c")
 	)
-	(label "IMU1_SCK"
+	(label "IMU1_SPI_SCK"
 		(at 71.12 81.28 0)
 		(effects
 			(font
@@ -2148,7 +2148,7 @@
 		)
 		(uuid "878d39e5-933b-4ec4-9606-7adebe4fd7db")
 	)
-	(label "IMU1_MISO"
+	(label "IMU1_SPI_MISO"
 		(at 71.12 86.36 0)
 		(effects
 			(font
@@ -2198,7 +2198,7 @@
 		)
 		(uuid "efce748f-38e1-49a2-96b7-5acecaf911f0")
 	)
-	(label "CS_ADXL375"
+	(label "IMU1_CS_ADXL375"
 		(at 71.12 78.74 0)
 		(effects
 			(font
