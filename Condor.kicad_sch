@@ -155,7 +155,7 @@
 	)
 	(sheet
 		(at 93.98 25.4)
-		(size 109.22 22.86)
+		(size 48.26 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -195,6 +195,52 @@
 			(project "Condor"
 				(path "/4a4947c5-540a-4852-b2fa-01bf36e5263c"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 25.4)
+		(size 48.26 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 255 0.2509803922)
+		)
+		(uuid "3293959d-cfda-426c-8afa-03c1c61701f1")
+		(property "Sheetname" "STM32 Power"
+			(at 154.94 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "schematics/stm_power.kicad_sch"
+			(at 154.94 48.8446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Condor"
+				(path "/4a4947c5-540a-4852-b2fa-01bf36e5263c"
+					(page "14")
 				)
 			)
 		)
