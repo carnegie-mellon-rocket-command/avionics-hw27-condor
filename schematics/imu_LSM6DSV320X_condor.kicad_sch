@@ -8,6 +8,277 @@
 		(date "2026-10-24")
 	)
 	(lib_symbols
+		(symbol "C_GRM155R61A106ME11D:GRM155R61A106ME11D"
+			(body_styles demorgan)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 3.81 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "10uF"
+				(at 3.81 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "C_GRM155R61A106ME11D:C_GRM155R61A106ME11D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM155R61A106ME11%23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "GRM155R61A106ME11D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CAP_GRM155R61A106ME11_MUR CAP_GRM155R61A106ME11_MUR-M CAP_GRM155R61A106ME11_MUR-L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GRM155R61A106ME11D_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.4798 -1.905) (xy 3.4798 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 -1.905) (xy 4.1148 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "GRM155R61A106ME11D_1_2"
+				(polyline
+					(pts
+						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.1148) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "U_LSM6DSV320XTR:LSM6DSV320XTR"
 			(pin_names
 				(offset 0.254)
@@ -664,10 +935,28 @@
 		)
 	)
 	(junction
-		(at 102.87 119.38)
+		(at 91.44 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "877b47af-ecaf-4bfd-a756-5940b6002301")
+		(uuid "4f044933-f544-4300-9f04-17e54f136fbe")
+	)
+	(junction
+		(at 91.44 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "635b9b05-2f0e-4e76-88c3-c631579e8714")
+	)
+	(junction
+		(at 91.44 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7432d01-882d-46a1-8a46-59f8b99744d7")
+	)
+	(junction
+		(at 100.33 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea9b8aa0-208b-4d3c-ad46-a6dedd8a691e")
 	)
 	(junction
 		(at 102.87 121.92)
@@ -675,9 +964,61 @@
 		(color 0 0 0 0)
 		(uuid "f1ee7829-2247-45ce-9576-c58dc86fc56f")
 	)
+	(no_connect
+		(at 156.21 81.28)
+		(uuid "5d3d0ca7-bf56-4d5f-a6bd-7dd17f82ce80")
+	)
+	(no_connect
+		(at 105.41 78.74)
+		(uuid "5eaa8f31-26db-4cec-88a0-c4727ebf8c22")
+	)
+	(no_connect
+		(at 105.41 88.9)
+		(uuid "f65de12c-aa78-49a6-ac30-28deebc07d12")
+	)
+	(no_connect
+		(at 105.41 81.28)
+		(uuid "fdabd95e-785b-4bbf-8d9c-8f10d6d91bc4")
+	)
+	(bus_entry
+		(at 81.28 96.52)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11c93ade-2012-4582-90ea-27cd0bf02110")
+	)
+	(bus_entry
+		(at 81.28 86.36)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a23ee78-722d-496f-b803-1809d9a7c2ff")
+	)
+	(bus_entry
+		(at 81.28 82.55)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bff57f9-265c-4bcc-b95b-9e4dedee0710")
+	)
+	(bus_entry
+		(at 81.28 91.44)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce0cb62c-3687-46cb-bfba-38916e94f4de")
+	)
 	(bus
 		(pts
-			(xy 81.28 76.2) (xy 81.28 105.41)
+			(xy 78.74 76.2) (xy 78.74 105.41)
 		)
 		(stroke
 			(width 0)
@@ -697,6 +1038,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 78.74) (xy 156.21 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a5fce91-4a70-42ec-bbb1-d273aedd0796")
+	)
+	(wire
+		(pts
 			(xy 100.33 109.22) (xy 105.41 109.22)
 		)
 		(stroke
@@ -707,13 +1058,33 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 86.36) (xy 81.28 86.36)
+			(xy 100.33 109.22) (xy 100.33 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5aaade3e-f999-486f-ba16-d30873566359")
+		(uuid "3ae8b120-f0bd-4458-a8bb-334bd2d7cc6f")
+	)
+	(wire
+		(pts
+			(xy 91.44 114.3) (xy 91.44 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "408f2273-d14b-4984-9fc7-8c30313f4aa6")
+	)
+	(wire
+		(pts
+			(xy 91.44 109.22) (xy 91.44 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62a1fd82-7ea3-45b8-aa8b-1a702b82af29")
 	)
 	(wire
 		(pts
@@ -724,6 +1095,16 @@
 			(type default)
 		)
 		(uuid "7d304407-3dcc-44df-b535-954128c43301")
+	)
+	(wire
+		(pts
+			(xy 100.33 111.76) (xy 105.41 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9d8cdc-bd53-431a-a4c5-6fcf9e03c0e2")
 	)
 	(wire
 		(pts
@@ -747,6 +1128,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 106.68) (xy 91.44 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1167325-f5fe-46b8-8201-27fd9b01a0a0")
+	)
+	(wire
+		(pts
 			(xy 81.28 96.52) (xy 105.41 96.52)
 		)
 		(stroke
@@ -757,23 +1148,23 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 119.38) (xy 102.87 119.38)
+			(xy 91.44 109.22) (xy 100.33 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c616290c-ac1c-4ed1-94c1-61c89e24efdb")
+		(uuid "bcb117c5-1862-4a35-84cb-db09a4a0fcb4")
 	)
 	(wire
 		(pts
-			(xy 81.28 86.36) (xy 81.28 87.63)
+			(xy 81.28 86.36) (xy 105.41 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ec34962d-a915-46cc-b9e2-e1272a41dfe7")
+		(uuid "d2a985cf-6cd3-4057-b772-89803c945464")
 	)
 	(wire
 		(pts
@@ -785,9 +1176,69 @@
 		)
 		(uuid "efcdb5f1-f829-4b2d-8813-c4e2cd0432ee")
 	)
+	(wire
+		(pts
+			(xy 81.28 82.55) (xy 96.52 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff57a73b-fa54-474a-a00d-73b21408219e")
+	)
+	(label "IMU_SPI1_MISO"
+		(at 96.52 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1b61a0cd-0acf-43b1-b384-0eef4ee500d8")
+	)
+	(label "IMU_SPI1_CS"
+		(at 81.28 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3599b2a1-8ff4-4e38-9c7f-5a6fdf399024")
+	)
+	(label "IMU_SPI1_SD0"
+		(at 170.18 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7966cc0a-cb86-43a0-bda1-e911536e5a3d")
+	)
+	(label "IMU_SPI1_SCL"
+		(at 81.28 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5dbb57d-7c5d-4d41-8791-b53c64e7dc1e")
+	)
+	(label "IMU_SPI1_MOSI"
+		(at 81.28 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3c9b102-7b86-480c-8dad-0546fe0187fe")
+	)
 	(global_label "{IMU_SPI1}"
 		(shape input)
-		(at 81.28 76.2 0)
+		(at 78.74 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -797,7 +1248,7 @@
 		)
 		(uuid "9862c97b-c171-4481-8920-8e200f2a0b11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.6067 76.2 0)
+			(at 92.0667 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -806,6 +1257,85 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 99.06 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d3dd94e-a5d7-4f88-a373-8b3bafd2de7a")
+		(property "Reference" "#PWR04"
+			(at 99.06 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 99.0599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "936d932d-73d9-4b0b-93ba-afbe26ad118c")
+		)
+		(instances
+			(project "Condor"
+				(path "/4a4947c5-540a-4852-b2fa-01bf36e5263c/0a2ef9d1-01fa-4ebe-bda6-b281c88e5853"
+					(reference "#PWR04")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -928,8 +1458,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VIN")
-		(at 100.33 109.22 0)
+		(lib_id "power:GND")
+		(at 105.41 93.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -938,9 +1468,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "465489fc-b725-46f6-8763-ba44cdd6cc4d")
-		(property "Reference" "#PWR02"
-			(at 100.33 113.03 0)
+		(uuid "75f1c98b-3dcd-40d8-9397-7f2a80b889dd")
+		(property "Reference" "#PWR05"
+			(at 99.06 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -950,18 +1480,19 @@
 				)
 			)
 		)
-		(property "Value" "VIN"
-			(at 100.33 104.14 0)
+		(property "Value" "GND"
+			(at 101.6 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 109.22 0)
+			(at 105.41 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -972,7 +1503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 109.22 0)
+			(at 105.41 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -982,8 +1513,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VIN\""
-			(at 100.33 109.22 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -994,7 +1525,162 @@
 			)
 		)
 		(pin "1"
-			(uuid "c73365d6-e6d2-437a-8fca-26eb71a271a7")
+			(uuid "3dfb4605-9c1f-4b79-b2dd-36c841785204")
+		)
+		(instances
+			(project "Condor"
+				(path "/4a4947c5-540a-4852-b2fa-01bf36e5263c/0a2ef9d1-01fa-4ebe-bda6-b281c88e5853"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 91.44 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e1afd5e-3c65-4428-abef-844b723e8356")
+		(property "Reference" "#PWR03"
+			(at 91.44 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e2c87872-f315-40b7-bca1-f4eacf271a25")
+		)
+		(instances
+			(project "Condor"
+				(path "/4a4947c5-540a-4852-b2fa-01bf36e5263c/0a2ef9d1-01fa-4ebe-bda6-b281c88e5853"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VIN")
+		(at 91.44 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc617916-05d5-49a7-8091-37ff16586146")
+		(property "Reference" "#PWR02"
+			(at 91.44 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC_3V3"
+			(at 97.028 105.664 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VIN\""
+			(at 91.44 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d7395f3-887e-4847-acae-9b24d9da792e")
 		)
 		(instances
 			(project "Condor"
@@ -1078,6 +1764,89 @@
 			(project "Condor"
 				(path "/4a4947c5-540a-4852-b2fa-01bf36e5263c/0a2ef9d1-01fa-4ebe-bda6-b281c88e5853"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C_GRM155R61A106ME11D:GRM155R61A106ME11D")
+		(at 91.44 114.3 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d6717bd0-1403-4cdc-8a1c-85c89f34a643")
+		(property "Reference" "C1"
+			(at 86.106 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 87.63 119.634 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "C_GRM155R61A106ME11D:C_GRM155R61A106ME11D"
+			(at 91.44 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM155R61A106ME11%23"
+			(at 91.44 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1211af7a-5214-4009-8a3a-d3e76bc729ec")
+		)
+		(pin "2"
+			(uuid "9d10fbfb-bca4-4079-9c01-de756c3ac501")
+		)
+		(instances
+			(project "Condor"
+				(path "/4a4947c5-540a-4852-b2fa-01bf36e5263c/0a2ef9d1-01fa-4ebe-bda6-b281c88e5853"
+					(reference "C1")
 					(unit 1)
 				)
 			)
