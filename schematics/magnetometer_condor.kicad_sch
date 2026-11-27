@@ -1647,7 +1647,7 @@
 		)
 		(uuid "d1db6389-92bf-4076-bcf5-532e25aa6e71")
 	)
-	(global_label "BAROM_MAG_I2C"
+	(global_label "{BAROM_MAG_I2C}"
 		(shape input)
 		(at 97.79 77.47 180)
 		(fields_autoplaced yes)
@@ -1659,7 +1659,7 @@
 		)
 		(uuid "885856e8-23a7-4d12-9149-1b8906f88295")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.5648 77.47 0)
+			(at 77.8714 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
