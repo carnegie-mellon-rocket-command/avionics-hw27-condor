@@ -1,2483 +1,5768 @@
-(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "RC0402FR-07100RL" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 5.715 3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "100R" (id 1) (at 6.35 -3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "R_RC0402FR:R_RC0402FR" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC0402FR-07100RL" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "ki_keywords" "RC0402FR-07100RL" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_locked" "" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "RC0402FR-07100RL_1_1"
-      (polyline
-        (pts
-          (xy 3.175 1.27)
-          (xy 4.445 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.445 -1.27)
-          (xy 5.715 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.715 1.27)
-          (xy 6.985 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.985 -1.27)
-          (xy 8.255 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 8.255 1.27)
-          (xy 9.525 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 0)
-          (xy 3.175 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 9.525 -1.27)
-          (xy 10.16 0)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 12.7 0 180) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 0) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "RC0402FR-07100RL_1_2"
-      (polyline
-        (pts
-          (xy 0 2.54)
-          (xy -1.27 3.175)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 3.175)
-          (xy 1.27 4.445)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 4.445)
-          (xy -1.27 5.715)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 5.715)
-          (xy 1.27 6.985)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 8.255)
-          (xy 1.27 9.525)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 9.525)
-          (xy 0 10.16)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 6.985)
-          (xy -1.27 8.255)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 0 12.7 270) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 90) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "RC0402FR-07200RL" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 5.715 3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "200R" (id 1) (at 6.35 -3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "R_RC0402FR:R_RC0402FR" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC0402FR-07200RL" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "ki_keywords" "RC0402FR-07200RL" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_locked" "" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "RC0402FR-07200RL_1_1"
-      (polyline
-        (pts
-          (xy 3.175 1.27)
-          (xy 4.445 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.445 -1.27)
-          (xy 5.715 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.715 1.27)
-          (xy 6.985 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.985 -1.27)
-          (xy 8.255 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 8.255 1.27)
-          (xy 9.525 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 0)
-          (xy 3.175 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 9.525 -1.27)
-          (xy 10.16 0)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 12.7 0 180) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 0) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "RC0402FR-07200RL_1_2"
-      (polyline
-        (pts
-          (xy 0 2.54)
-          (xy -1.27 3.175)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 3.175)
-          (xy 1.27 4.445)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 4.445)
-          (xy -1.27 5.715)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 5.715)
-          (xy 1.27 6.985)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 8.255)
-          (xy 1.27 9.525)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 9.525)
-          (xy 0 10.16)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 6.985)
-          (xy -1.27 8.255)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 0 12.7 270) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 90) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-(symbol "RC0402FR-07590RL" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 5.715 3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "590R" (id 1) (at 6.35 -3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "R_RC0402FR:R_RC0402FR" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC0402FR-07590RL" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "ki_keywords" "RC0402FR-07590RL" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_locked" "" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "RC0402FR-07590RL_1_1"
-      (polyline
-        (pts
-          (xy 3.175 1.27)
-          (xy 4.445 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.445 -1.27)
-          (xy 5.715 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.715 1.27)
-          (xy 6.985 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.985 -1.27)
-          (xy 8.255 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 8.255 1.27)
-          (xy 9.525 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 0)
-          (xy 3.175 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 9.525 -1.27)
-          (xy 10.16 0)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 12.7 0 180) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 0) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "RC0402FR-07590RL_1_2"
-      (polyline
-        (pts
-          (xy 0 2.54)
-          (xy -1.27 3.175)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 3.175)
-          (xy 1.27 4.445)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 4.445)
-          (xy -1.27 5.715)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 5.715)
-          (xy 1.27 6.985)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 8.255)
-          (xy 1.27 9.525)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 9.525)
-          (xy 0 10.16)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 6.985)
-          (xy -1.27 8.255)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 0 12.7 270) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 90) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-(symbol "RC0402FR-071K00L" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 5.715 3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "1K00" (id 1) (at 6.35 -3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "R_RC0402FR:R_RC0402FR" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC0402FR-071K00L" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "ki_keywords" "RC0402FR-071K00L" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_locked" "" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "RC0402FR-071K00L_1_1"
-      (polyline
-        (pts
-          (xy 3.175 1.27)
-          (xy 4.445 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.445 -1.27)
-          (xy 5.715 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.715 1.27)
-          (xy 6.985 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.985 -1.27)
-          (xy 8.255 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 8.255 1.27)
-          (xy 9.525 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 0)
-          (xy 3.175 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 9.525 -1.27)
-          (xy 10.16 0)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 12.7 0 180) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 0) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "RC0402FR-071K00L_1_2"
-      (polyline
-        (pts
-          (xy 0 2.54)
-          (xy -1.27 3.175)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 3.175)
-          (xy 1.27 4.445)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 4.445)
-          (xy -1.27 5.715)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 5.715)
-          (xy 1.27 6.985)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 8.255)
-          (xy 1.27 9.525)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 9.525)
-          (xy 0 10.16)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 6.985)
-          (xy -1.27 8.255)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 0 12.7 270) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 90) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "RC0402FR-071K21L" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 5.715 3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "1K21" (id 1) (at 6.35 -3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "R_RC0402FR:R_RC0402FR" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC0402FR-071K21L" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "ki_keywords" "RC0402FR-071K21L" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_locked" "" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "RC0402FR-071K21L_1_1"
-      (polyline
-        (pts
-          (xy 3.175 1.27)
-          (xy 4.445 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.445 -1.27)
-          (xy 5.715 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.715 1.27)
-          (xy 6.985 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.985 -1.27)
-          (xy 8.255 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 8.255 1.27)
-          (xy 9.525 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 0)
-          (xy 3.175 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 9.525 -1.27)
-          (xy 10.16 0)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 12.7 0 180) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 0) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "RC0402FR-071K21L_1_2"
-      (polyline
-        (pts
-          (xy 0 2.54)
-          (xy -1.27 3.175)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 3.175)
-          (xy 1.27 4.445)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 4.445)
-          (xy -1.27 5.715)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 5.715)
-          (xy 1.27 6.985)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 8.255)
-          (xy 1.27 9.525)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 9.525)
-          (xy 0 10.16)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 6.985)
-          (xy -1.27 8.255)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 0 12.7 270) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 90) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "RC0402FR-074K7L" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 5.715 3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "4K7" (id 1) (at 6.35 -3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "R_RC0402FR:R_RC0402FR" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC0402FR-074K7L" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "ki_keywords" "RC0402FR-074K7L" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_locked" "" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "RC0402FR-074K7L_1_1"
-      (polyline
-        (pts
-          (xy 3.175 1.27)
-          (xy 4.445 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.445 -1.27)
-          (xy 5.715 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.715 1.27)
-          (xy 6.985 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.985 -1.27)
-          (xy 8.255 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 8.255 1.27)
-          (xy 9.525 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 0)
-          (xy 3.175 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 9.525 -1.27)
-          (xy 10.16 0)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 12.7 0 180) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 0) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "RC0402FR-074K7L_1_2"
-      (polyline
-        (pts
-          (xy 0 2.54)
-          (xy -1.27 3.175)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 3.175)
-          (xy 1.27 4.445)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 4.445)
-          (xy -1.27 5.715)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 5.715)
-          (xy 1.27 6.985)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 8.255)
-          (xy 1.27 9.525)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 9.525)
-          (xy 0 10.16)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 6.985)
-          (xy -1.27 8.255)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 0 12.7 270) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 90) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "RC0402FR-076K04L" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 5.715 3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "6K04" (id 1) (at 6.35 -3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "R_RC0402FR:R_RC0402FR" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC0402FR-076K04L" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "ki_keywords" "RC0402FR-076K04L" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_locked" "" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "RC0402FR-076K04L_1_1"
-      (polyline
-        (pts
-          (xy 3.175 1.27)
-          (xy 4.445 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.445 -1.27)
-          (xy 5.715 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.715 1.27)
-          (xy 6.985 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.985 -1.27)
-          (xy 8.255 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 8.255 1.27)
-          (xy 9.525 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 0)
-          (xy 3.175 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 9.525 -1.27)
-          (xy 10.16 0)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 12.7 0 180) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 0) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "RC0402FR-076K04L_1_2"
-      (polyline
-        (pts
-          (xy 0 2.54)
-          (xy -1.27 3.175)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 3.175)
-          (xy 1.27 4.445)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 4.445)
-          (xy -1.27 5.715)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 5.715)
-          (xy 1.27 6.985)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 8.255)
-          (xy 1.27 9.525)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 9.525)
-          (xy 0 10.16)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 6.985)
-          (xy -1.27 8.255)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 0 12.7 270) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 90) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "RC0402FR-0710KL" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 5.715 3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "10K" (id 1) (at 6.35 -3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "R_RC0402FR:R_RC0402FR" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC0402FR-0710KL" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "ki_keywords" "RC0402FR-0710KL" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_locked" "" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "RC0402FR-0710KL_1_1"
-      (polyline
-        (pts
-          (xy 3.175 1.27)
-          (xy 4.445 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.445 -1.27)
-          (xy 5.715 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.715 1.27)
-          (xy 6.985 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.985 -1.27)
-          (xy 8.255 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 8.255 1.27)
-          (xy 9.525 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 0)
-          (xy 3.175 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 9.525 -1.27)
-          (xy 10.16 0)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 12.7 0 180) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 0) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "RC0402FR-0710KL_1_2"
-      (polyline
-        (pts
-          (xy 0 2.54)
-          (xy -1.27 3.175)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 3.175)
-          (xy 1.27 4.445)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 4.445)
-          (xy -1.27 5.715)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 5.715)
-          (xy 1.27 6.985)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 8.255)
-          (xy 1.27 9.525)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 9.525)
-          (xy 0 10.16)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 6.985)
-          (xy -1.27 8.255)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 0 12.7 270) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 90) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "RC0402FR-07100KL" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 5.715 3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "100K" (id 1) (at 6.35 -3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "R_RC0402FR:R_RC0402FR" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC0402FR-07100KL" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "ki_keywords" "RC0402FR-07100KL" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_locked" "" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "RC0402FR-07100KL_1_1"
-      (polyline
-        (pts
-          (xy 3.175 1.27)
-          (xy 4.445 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.445 -1.27)
-          (xy 5.715 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.715 1.27)
-          (xy 6.985 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.985 -1.27)
-          (xy 8.255 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 8.255 1.27)
-          (xy 9.525 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 0)
-          (xy 3.175 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 9.525 -1.27)
-          (xy 10.16 0)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 12.7 0 180) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 0) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "RC0402FR-07100KL_1_2"
-      (polyline
-        (pts
-          (xy 0 2.54)
-          (xy -1.27 3.175)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 3.175)
-          (xy 1.27 4.445)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 4.445)
-          (xy -1.27 5.715)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 5.715)
-          (xy 1.27 6.985)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 8.255)
-          (xy 1.27 9.525)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 9.525)
-          (xy 0 10.16)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 6.985)
-          (xy -1.27 8.255)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 0 12.7 270) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 90) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "RC0402FR-07200KL" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 5.715 3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "200K" (id 1) (at 6.35 -3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "R_RC0402FR:R_RC0402FR" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC0402FR-07200KL" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "ki_keywords" "RC0402FR-07200KL" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_locked" "" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "RC0402FR-07200KL_1_1"
-      (polyline
-        (pts
-          (xy 3.175 1.27)
-          (xy 4.445 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.445 -1.27)
-          (xy 5.715 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.715 1.27)
-          (xy 6.985 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.985 -1.27)
-          (xy 8.255 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 8.255 1.27)
-          (xy 9.525 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 0)
-          (xy 3.175 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 9.525 -1.27)
-          (xy 10.16 0)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 12.7 0 180) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 0) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "RC0402FR-07200KL_1_2"
-      (polyline
-        (pts
-          (xy 0 2.54)
-          (xy -1.27 3.175)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 3.175)
-          (xy 1.27 4.445)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 4.445)
-          (xy -1.27 5.715)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 5.715)
-          (xy 1.27 6.985)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 8.255)
-          (xy 1.27 9.525)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 9.525)
-          (xy 0 10.16)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 6.985)
-          (xy -1.27 8.255)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 0 12.7 270) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 90) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "RC0402FR-07330KL" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 5.715 3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "330K" (id 1) (at 6.35 -3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "R_RC0402FR:R_RC0402FR" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "https://www.lcsc.com/datasheet/C25778.pdf" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "ki_keywords" "RC0402FR-07330KL 0402WGF3303TCE" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_locked" "" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "RC0402FR-07330KL_1_1"
-      (polyline
-        (pts
-          (xy 3.175 1.27)
-          (xy 4.445 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.445 -1.27)
-          (xy 5.715 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.715 1.27)
-          (xy 6.985 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.985 -1.27)
-          (xy 8.255 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 8.255 1.27)
-          (xy 9.525 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 0)
-          (xy 3.175 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 9.525 -1.27)
-          (xy 10.16 0)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 12.7 0 180) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 0) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "RC0402FR-07330KL_1_2"
-      (polyline
-        (pts
-          (xy 0 2.54)
-          (xy -1.27 3.175)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 3.175)
-          (xy 1.27 4.445)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 4.445)
-          (xy -1.27 5.715)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 5.715)
-          (xy 1.27 6.985)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 8.255)
-          (xy 1.27 9.525)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 9.525)
-          (xy 0 10.16)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 6.985)
-          (xy -1.27 8.255)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 0 12.7 270) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 90) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "RC0402FR-07768KL" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 5.715 3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "768K" (id 1) (at 6.35 -3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "R_RC0402FR:R_RC0402FR" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC0402FR-07768KL" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "ki_keywords" "RC0402FR-07768KL" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_locked" "" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "RC0402FR-07768KL_1_1"
-      (polyline
-        (pts
-          (xy 3.175 1.27)
-          (xy 4.445 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.445 -1.27)
-          (xy 5.715 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.715 1.27)
-          (xy 6.985 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.985 -1.27)
-          (xy 8.255 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 8.255 1.27)
-          (xy 9.525 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 0)
-          (xy 3.175 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 9.525 -1.27)
-          (xy 10.16 0)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 12.7 0 180) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 0) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "RC0402FR-07768KL_1_2"
-      (polyline
-        (pts
-          (xy 0 2.54)
-          (xy -1.27 3.175)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 3.175)
-          (xy 1.27 4.445)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 4.445)
-          (xy -1.27 5.715)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 5.715)
-          (xy 1.27 6.985)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 8.255)
-          (xy 1.27 9.525)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 9.525)
-          (xy 0 10.16)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 6.985)
-          (xy -1.27 8.255)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 0 12.7 270) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 90) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "RC0402FR-07887RL" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 5.715 3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "887R" (id 1) (at 6.35 -3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "R_RC0402FR:R_RC0402FR" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC0402FR-07887RL" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "ki_keywords" "RC0402FR-07887RL" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_locked" "" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "RC0402FR-07887RL_1_1"
-      (polyline
-        (pts
-          (xy 3.175 1.27)
-          (xy 4.445 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.445 -1.27)
-          (xy 5.715 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.715 1.27)
-          (xy 6.985 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.985 -1.27)
-          (xy 8.255 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 8.255 1.27)
-          (xy 9.525 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 0)
-          (xy 3.175 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 9.525 -1.27)
-          (xy 10.16 0)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 12.7 0 180) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 0) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "RC0402FR-07887RL_1_2"
-      (polyline
-        (pts
-          (xy 0 2.54)
-          (xy -1.27 3.175)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 3.175)
-          (xy 1.27 4.445)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 4.445)
-          (xy -1.27 5.715)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 5.715)
-          (xy 1.27 6.985)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 8.255)
-          (xy 1.27 9.525)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 9.525)
-          (xy 0 10.16)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 6.985)
-          (xy -1.27 8.255)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 0 12.7 270) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 90) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-
-  (symbol "RC0402FR-072K2L" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 5.715 3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "2K2" (id 1) (at 6.35 -3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "R_RC0402FR:R_RC0402FR" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "https://www.lcsc.com/datasheet/C25879.pdf" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "ki_keywords" "RC0402FR-072K2L 0402WGF2201TCE" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_locked" "" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "RC0402FR-072K2L_1_1"
-      (polyline
-        (pts
-          (xy 3.175 1.27)
-          (xy 4.445 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.445 -1.27)
-          (xy 5.715 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.715 1.27)
-          (xy 6.985 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.985 -1.27)
-          (xy 8.255 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 8.255 1.27)
-          (xy 9.525 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 0)
-          (xy 3.175 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 9.525 -1.27)
-          (xy 10.16 0)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 12.7 0 180) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 0) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "RC0402FR-072K2L_1_2"
-      (polyline
-        (pts
-          (xy 0 2.54)
-          (xy -1.27 3.175)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 3.175)
-          (xy 1.27 4.445)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 4.445)
-          (xy -1.27 5.715)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 5.715)
-          (xy 1.27 6.985)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 8.255)
-          (xy 1.27 9.525)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 9.525)
-          (xy 0 10.16)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 6.985)
-          (xy -1.27 8.255)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 0 12.7 270) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 90) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "RC0402FR-075K1L" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 5.715 3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "5K1" (id 1) (at 6.35 -3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "R_RC0402FR:R_RC0402FR" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC0402FR-075K1L" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "ki_keywords" "RC0402FR-075K1L" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_locked" "" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "RC0402FR-075K1L_1_1"
-      (polyline
-        (pts
-          (xy 3.175 1.27)
-          (xy 4.445 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.445 -1.27)
-          (xy 5.715 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.715 1.27)
-          (xy 6.985 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.985 -1.27)
-          (xy 8.255 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 8.255 1.27)
-          (xy 9.525 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 0)
-          (xy 3.175 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 9.525 -1.27)
-          (xy 10.16 0)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 12.7 0 180) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 0) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "RC0402FR-075K1L_1_2"
-      (polyline
-        (pts
-          (xy 0 2.54)
-          (xy -1.27 3.175)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 3.175)
-          (xy 1.27 4.445)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 4.445)
-          (xy -1.27 5.715)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 5.715)
-          (xy 1.27 6.985)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 8.255)
-          (xy 1.27 9.525)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 9.525)
-          (xy 0 10.16)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 6.985)
-          (xy -1.27 8.255)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 0 12.7 270) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 90) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "RC0402FR-071K10L" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (id 0) (at 5.715 3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "1K10" (id 1) (at 6.35 -3.81 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "R_RC0402FR:R_RC0402FR" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "https://www.lcsc.com/datasheet/C25860.pdf" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "ki_keywords" "RC0402FR-071K10L 0402WGF1101TCE" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_locked" "" (id 5) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L" (id 6) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "RC0402FR-071K10L_1_1"
-      (polyline
-        (pts
-          (xy 3.175 1.27)
-          (xy 4.445 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 4.445 -1.27)
-          (xy 5.715 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.715 1.27)
-          (xy 6.985 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.985 -1.27)
-          (xy 8.255 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 8.255 1.27)
-          (xy 9.525 -1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 0)
-          (xy 3.175 1.27)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 9.525 -1.27)
-          (xy 10.16 0)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 12.7 0 180) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 0) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "RC0402FR-071K10L_1_2"
-      (polyline
-        (pts
-          (xy 0 2.54)
-          (xy -1.27 3.175)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 3.175)
-          (xy 1.27 4.445)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 4.445)
-          (xy -1.27 5.715)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 5.715)
-          (xy 1.27 6.985)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 8.255)
-          (xy 1.27 9.525)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 9.525)
-          (xy 0 10.16)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.27 6.985)
-          (xy -1.27 8.255)
-        )
-        (stroke (width 0.2032) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 0 12.7 270) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 90) (length 2.54)
-        (name "" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "RC0402FR-07100KL"
+		(body_styles demorgan)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 5.715 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "100K"
+			(at 6.35 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "R_RC0402FR:R_RC0402FR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC0402FR-07100KL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "RC0402FR-07100KL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "RC0402FR-07100KL_1_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 3.175 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 1.27) (xy 4.445 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -1.27) (xy 5.715 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 1.27) (xy 6.985 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.985 -1.27) (xy 8.255 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.255 1.27) (xy 9.525 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.525 -1.27) (xy 10.16 0)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RC0402FR-07100KL_1_2"
+			(polyline
+				(pts
+					(xy -1.27 8.255) (xy 1.27 9.525)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 5.715) (xy 1.27 6.985)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 3.175) (xy 1.27 4.445)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy -1.27 3.175)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 9.525) (xy 0 10.16)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 6.985) (xy -1.27 8.255)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 4.445) (xy -1.27 5.715)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "RC0402FR-07100RL"
+		(body_styles demorgan)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 5.715 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 6.35 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "R_RC0402FR:R_RC0402FR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC0402FR-07100RL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "RC0402FR-07100RL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "RC0402FR-07100RL_1_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 3.175 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 1.27) (xy 4.445 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -1.27) (xy 5.715 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 1.27) (xy 6.985 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.985 -1.27) (xy 8.255 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.255 1.27) (xy 9.525 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.525 -1.27) (xy 10.16 0)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RC0402FR-07100RL_1_2"
+			(polyline
+				(pts
+					(xy -1.27 8.255) (xy 1.27 9.525)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 5.715) (xy 1.27 6.985)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 3.175) (xy 1.27 4.445)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy -1.27 3.175)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 9.525) (xy 0 10.16)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 6.985) (xy -1.27 8.255)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 4.445) (xy -1.27 5.715)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "RC0402FR-0710KL"
+		(body_styles demorgan)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 5.715 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 6.35 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "R_RC0402FR:R_RC0402FR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC0402FR-0710KL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "RC0402FR-0710KL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "RC0402FR-0710KL_1_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 3.175 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 1.27) (xy 4.445 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -1.27) (xy 5.715 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 1.27) (xy 6.985 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.985 -1.27) (xy 8.255 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.255 1.27) (xy 9.525 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.525 -1.27) (xy 10.16 0)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RC0402FR-0710KL_1_2"
+			(polyline
+				(pts
+					(xy -1.27 8.255) (xy 1.27 9.525)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 5.715) (xy 1.27 6.985)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 3.175) (xy 1.27 4.445)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy -1.27 3.175)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 9.525) (xy 0 10.16)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 6.985) (xy -1.27 8.255)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 4.445) (xy -1.27 5.715)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "RC0402FR-071K00L"
+		(body_styles demorgan)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 5.715 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "1K00"
+			(at 6.35 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "R_RC0402FR:R_RC0402FR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC0402FR-071K00L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "RC0402FR-071K00L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "RC0402FR-071K00L_1_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 3.175 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 1.27) (xy 4.445 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -1.27) (xy 5.715 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 1.27) (xy 6.985 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.985 -1.27) (xy 8.255 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.255 1.27) (xy 9.525 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.525 -1.27) (xy 10.16 0)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RC0402FR-071K00L_1_2"
+			(polyline
+				(pts
+					(xy -1.27 8.255) (xy 1.27 9.525)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 5.715) (xy 1.27 6.985)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 3.175) (xy 1.27 4.445)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy -1.27 3.175)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 9.525) (xy 0 10.16)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 6.985) (xy -1.27 8.255)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 4.445) (xy -1.27 5.715)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "RC0402FR-071K10L"
+		(body_styles demorgan)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 5.715 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "1K10"
+			(at 6.35 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "R_RC0402FR:R_RC0402FR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25860.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "RC0402FR-071K10L 0402WGF1101TCE"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "RC0402FR-071K10L_1_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 3.175 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 1.27) (xy 4.445 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -1.27) (xy 5.715 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 1.27) (xy 6.985 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.985 -1.27) (xy 8.255 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.255 1.27) (xy 9.525 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.525 -1.27) (xy 10.16 0)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RC0402FR-071K10L_1_2"
+			(polyline
+				(pts
+					(xy -1.27 8.255) (xy 1.27 9.525)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 5.715) (xy 1.27 6.985)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 3.175) (xy 1.27 4.445)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy -1.27 3.175)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 9.525) (xy 0 10.16)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 6.985) (xy -1.27 8.255)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 4.445) (xy -1.27 5.715)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "RC0402FR-071K21L"
+		(body_styles demorgan)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 5.715 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "1K21"
+			(at 6.35 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "R_RC0402FR:R_RC0402FR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC0402FR-071K21L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "RC0402FR-071K21L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "RC0402FR-071K21L_1_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 3.175 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 1.27) (xy 4.445 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -1.27) (xy 5.715 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 1.27) (xy 6.985 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.985 -1.27) (xy 8.255 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.255 1.27) (xy 9.525 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.525 -1.27) (xy 10.16 0)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RC0402FR-071K21L_1_2"
+			(polyline
+				(pts
+					(xy -1.27 8.255) (xy 1.27 9.525)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 5.715) (xy 1.27 6.985)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 3.175) (xy 1.27 4.445)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy -1.27 3.175)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 9.525) (xy 0 10.16)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 6.985) (xy -1.27 8.255)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 4.445) (xy -1.27 5.715)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "RC0402FR-07200KL"
+		(body_styles demorgan)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 5.715 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "200K"
+			(at 6.35 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "R_RC0402FR:R_RC0402FR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC0402FR-07200KL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "RC0402FR-07200KL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "RC0402FR-07200KL_1_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 3.175 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 1.27) (xy 4.445 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -1.27) (xy 5.715 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 1.27) (xy 6.985 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.985 -1.27) (xy 8.255 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.255 1.27) (xy 9.525 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.525 -1.27) (xy 10.16 0)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RC0402FR-07200KL_1_2"
+			(polyline
+				(pts
+					(xy -1.27 8.255) (xy 1.27 9.525)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 5.715) (xy 1.27 6.985)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 3.175) (xy 1.27 4.445)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy -1.27 3.175)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 9.525) (xy 0 10.16)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 6.985) (xy -1.27 8.255)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 4.445) (xy -1.27 5.715)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "RC0402FR-07200RL"
+		(body_styles demorgan)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 5.715 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "200R"
+			(at 6.35 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "R_RC0402FR:R_RC0402FR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC0402FR-07200RL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "RC0402FR-07200RL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "RC0402FR-07200RL_1_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 3.175 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 1.27) (xy 4.445 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -1.27) (xy 5.715 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 1.27) (xy 6.985 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.985 -1.27) (xy 8.255 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.255 1.27) (xy 9.525 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.525 -1.27) (xy 10.16 0)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RC0402FR-07200RL_1_2"
+			(polyline
+				(pts
+					(xy -1.27 8.255) (xy 1.27 9.525)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 5.715) (xy 1.27 6.985)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 3.175) (xy 1.27 4.445)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy -1.27 3.175)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 9.525) (xy 0 10.16)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 6.985) (xy -1.27 8.255)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 4.445) (xy -1.27 5.715)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "RC0402FR-072K2L"
+		(body_styles demorgan)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 5.715 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "2K2"
+			(at 6.35 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "R_RC0402FR:R_RC0402FR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25879.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "RC0402FR-072K2L 0402WGF2201TCE"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "RC0402FR-072K2L_1_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 3.175 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 1.27) (xy 4.445 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -1.27) (xy 5.715 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 1.27) (xy 6.985 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.985 -1.27) (xy 8.255 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.255 1.27) (xy 9.525 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.525 -1.27) (xy 10.16 0)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RC0402FR-072K2L_1_2"
+			(polyline
+				(pts
+					(xy -1.27 8.255) (xy 1.27 9.525)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 5.715) (xy 1.27 6.985)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 3.175) (xy 1.27 4.445)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy -1.27 3.175)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 9.525) (xy 0 10.16)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 6.985) (xy -1.27 8.255)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 4.445) (xy -1.27 5.715)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "RC0402FR-07330KL"
+		(body_styles demorgan)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 5.715 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "330K"
+			(at 6.35 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "R_RC0402FR:R_RC0402FR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C25778.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "RC0402FR-07330KL 0402WGF3303TCE"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "RC0402FR-07330KL_1_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 3.175 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 1.27) (xy 4.445 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -1.27) (xy 5.715 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 1.27) (xy 6.985 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.985 -1.27) (xy 8.255 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.255 1.27) (xy 9.525 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.525 -1.27) (xy 10.16 0)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RC0402FR-07330KL_1_2"
+			(polyline
+				(pts
+					(xy -1.27 8.255) (xy 1.27 9.525)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 5.715) (xy 1.27 6.985)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 3.175) (xy 1.27 4.445)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy -1.27 3.175)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 9.525) (xy 0 10.16)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 6.985) (xy -1.27 8.255)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 4.445) (xy -1.27 5.715)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "RC0402FR-07470RL"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at -7.6244 2.5415 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "470R"
+			(at -7.63 -5.0866 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "R_RC0402FR:R_RC0402FR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/RC0402FR-07470RL_Yageo.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "470 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/RC0402FR-07470RL_Yageo.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "RC0402FR-07470RL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "1005 Panasonic Electronic Components"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/RC0402FR-07470RL/Yageo/view-part/"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(symbol "RC0402FR-07470RL_0_0"
+			(polyline
+				(pts
+					(xy -5.08 0) (xy -4.445 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 1.905) (xy -3.175 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 -1.905) (xy -1.905 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 1.905) (xy -0.635 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -1.905) (xy 0.635 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 1.905) (xy 1.905 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 -1.905) (xy 3.175 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 1.905) (xy 4.445 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -1.905) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -10.16 0 0)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 0 180)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "RC0402FR-074K7L"
+		(body_styles demorgan)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 5.715 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "4K7"
+			(at 6.35 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "R_RC0402FR:R_RC0402FR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC0402FR-074K7L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "RC0402FR-074K7L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "RC0402FR-074K7L_1_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 3.175 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 1.27) (xy 4.445 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -1.27) (xy 5.715 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 1.27) (xy 6.985 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.985 -1.27) (xy 8.255 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.255 1.27) (xy 9.525 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.525 -1.27) (xy 10.16 0)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RC0402FR-074K7L_1_2"
+			(polyline
+				(pts
+					(xy -1.27 8.255) (xy 1.27 9.525)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 5.715) (xy 1.27 6.985)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 3.175) (xy 1.27 4.445)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy -1.27 3.175)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 9.525) (xy 0 10.16)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 6.985) (xy -1.27 8.255)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 4.445) (xy -1.27 5.715)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "RC0402FR-07590RL"
+		(body_styles demorgan)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 5.715 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "590R"
+			(at 6.35 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "R_RC0402FR:R_RC0402FR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC0402FR-07590RL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "RC0402FR-07590RL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "RC0402FR-07590RL_1_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 3.175 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 1.27) (xy 4.445 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -1.27) (xy 5.715 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 1.27) (xy 6.985 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.985 -1.27) (xy 8.255 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.255 1.27) (xy 9.525 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.525 -1.27) (xy 10.16 0)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RC0402FR-07590RL_1_2"
+			(polyline
+				(pts
+					(xy -1.27 8.255) (xy 1.27 9.525)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 5.715) (xy 1.27 6.985)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 3.175) (xy 1.27 4.445)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy -1.27 3.175)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 9.525) (xy 0 10.16)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 6.985) (xy -1.27 8.255)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 4.445) (xy -1.27 5.715)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "RC0402FR-075K1L"
+		(body_styles demorgan)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 5.715 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 6.35 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "R_RC0402FR:R_RC0402FR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC0402FR-075K1L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "RC0402FR-075K1L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "RC0402FR-075K1L_1_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 3.175 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 1.27) (xy 4.445 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -1.27) (xy 5.715 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 1.27) (xy 6.985 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.985 -1.27) (xy 8.255 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.255 1.27) (xy 9.525 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.525 -1.27) (xy 10.16 0)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RC0402FR-075K1L_1_2"
+			(polyline
+				(pts
+					(xy -1.27 8.255) (xy 1.27 9.525)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 5.715) (xy 1.27 6.985)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 3.175) (xy 1.27 4.445)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy -1.27 3.175)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 9.525) (xy 0 10.16)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 6.985) (xy -1.27 8.255)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 4.445) (xy -1.27 5.715)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "RC0402FR-076K04L"
+		(body_styles demorgan)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 5.715 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "6K04"
+			(at 6.35 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "R_RC0402FR:R_RC0402FR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC0402FR-076K04L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "RC0402FR-076K04L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "RC0402FR-076K04L_1_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 3.175 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 1.27) (xy 4.445 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -1.27) (xy 5.715 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 1.27) (xy 6.985 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.985 -1.27) (xy 8.255 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.255 1.27) (xy 9.525 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.525 -1.27) (xy 10.16 0)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RC0402FR-076K04L_1_2"
+			(polyline
+				(pts
+					(xy -1.27 8.255) (xy 1.27 9.525)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 5.715) (xy 1.27 6.985)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 3.175) (xy 1.27 4.445)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy -1.27 3.175)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 9.525) (xy 0 10.16)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 6.985) (xy -1.27 8.255)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 4.445) (xy -1.27 5.715)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "RC0402FR-07768KL"
+		(body_styles demorgan)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 5.715 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "768K"
+			(at 6.35 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "R_RC0402FR:R_RC0402FR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC0402FR-07768KL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "RC0402FR-07768KL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "RC0402FR-07768KL_1_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 3.175 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 1.27) (xy 4.445 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -1.27) (xy 5.715 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 1.27) (xy 6.985 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.985 -1.27) (xy 8.255 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.255 1.27) (xy 9.525 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.525 -1.27) (xy 10.16 0)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RC0402FR-07768KL_1_2"
+			(polyline
+				(pts
+					(xy -1.27 8.255) (xy 1.27 9.525)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 5.715) (xy 1.27 6.985)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 3.175) (xy 1.27 4.445)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy -1.27 3.175)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 9.525) (xy 0 10.16)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 6.985) (xy -1.27 8.255)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 4.445) (xy -1.27 5.715)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "RC0402FR-07887RL"
+		(body_styles demorgan)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 5.715 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "887R"
+			(at 6.35 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "R_RC0402FR:R_RC0402FR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/en/ProductSearch/PartNumberSearch?part_number=RC0402FR-07887RL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "RC0402FR-07887RL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "RC0402FR-07887RL_1_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 3.175 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 1.27) (xy 4.445 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -1.27) (xy 5.715 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 1.27) (xy 6.985 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.985 -1.27) (xy 8.255 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.255 1.27) (xy 9.525 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.525 -1.27) (xy 10.16 0)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RC0402FR-07887RL_1_2"
+			(polyline
+				(pts
+					(xy -1.27 8.255) (xy 1.27 9.525)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 5.715) (xy 1.27 6.985)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 3.175) (xy 1.27 4.445)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy -1.27 3.175)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 9.525) (xy 0 10.16)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 6.985) (xy -1.27 8.255)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 4.445) (xy -1.27 5.715)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )
