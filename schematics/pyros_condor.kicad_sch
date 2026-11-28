@@ -1996,16 +1996,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 165.1) (xy 152.4 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2eb7dd67-0666-474a-906f-f3df90f0e9b6")
-	)
-	(wire
-		(pts
 			(xy 81.28 69.85) (xy 90.17 69.85)
 		)
 		(stroke
@@ -2073,16 +2063,6 @@
 			(type default)
 		)
 		(uuid "4e9c553c-308b-4a51-83e2-caf873f5159b")
-	)
-	(wire
-		(pts
-			(xy 140.97 96.52) (xy 152.4 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "549b224c-fb02-4674-89bd-85b649b9b604")
 	)
 	(wire
 		(pts
@@ -2276,16 +2256,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 130.81) (xy 152.4 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6830af4-d0e3-4e86-a8b9-b7774f142a79")
-	)
-	(wire
-		(pts
 			(xy 81.28 92.71) (xy 138.43 92.71)
 		)
 		(stroke
@@ -2343,16 +2313,6 @@
 			(type default)
 		)
 		(uuid "c41e6007-7d18-469d-9def-f796880f72dd")
-	)
-	(wire
-		(pts
-			(xy 140.97 62.23) (xy 152.4 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cce0f518-0d12-4400-8df3-ef18e5e99b13")
 	)
 	(wire
 		(pts
@@ -2435,7 +2395,7 @@
 		(uuid "0270fc1a-a40d-44d6-9e07-c402f1690815")
 	)
 	(label "VCC_ARMED"
-		(at 142.24 62.23 0)
+		(at 140.97 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2475,7 +2435,7 @@
 		(uuid "3b1bae71-e0f6-46e4-aad9-28cc3d4bc4ee")
 	)
 	(label "VCC_ARMED"
-		(at 142.24 96.52 0)
+		(at 140.97 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2495,7 +2455,7 @@
 		(uuid "4624098d-4b76-49eb-9b7c-ee59a6d0a6fd")
 	)
 	(label "VCC_ARMED"
-		(at 142.24 165.1 0)
+		(at 140.97 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2505,7 +2465,7 @@
 		(uuid "4a31c7ed-44e9-45f1-8a28-bd0e82f0e24b")
 	)
 	(label "VCC_ARMED"
-		(at 142.24 130.81 0)
+		(at 140.97 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
